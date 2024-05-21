@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <div class="calculadora">
+            <div id="visor">
+                <input type="text" id="visor-resumo" disabled>
+                <input type="text" id="visor-entrada" disabled>
+            </div>
+            <button type="button" id="C" onclick="entrada('c')">C</button>
+            <button type="button" id="dividir" onclick="entrada('/')">/</button>
+            <button type="button" id="multiplicar" onclick="entrada('*')">X</button>
+
+            <button type="button" id="sete" onclick="entrada('7')">7</button>
+            <button type="button" id="oito" onclick="entrada('8')">8</button>
+            <button type="button" id="nove" onclick="entrada('9')">9</button>
+            <button type="button" id="subtrair" onclick="entrada('-')">-</button>
+            
+
+            <button type="button" id="quatro" onclick="entrada('4')">4</button>
+            <button type="button" id="cinco" onclick="entrada('5')">5</button>
+            <button type="button" id="seis" onclick="entrada('6')">6</button>
+            <button type="button" id="somar" onclick="entrada('+')">+</button>            
+
+            <button type="button" id="um" onclick="entrada('1')">1</button>
+            <button type="button" id="dois" onclick="entrada('2')">2</button>
+            <button type="button" id="tres" onclick="entrada('3')">3</button>
+            
+
+            <button type="button" id="igual" onclick="entrada('=')">=</button>
+            <button type="button" id="zero" onclick="entrada('0')">0</button>
+            <button type="button" id="ponto" onclick="entrada('.')">.</button>
+        </div>    
+    </main>
+    <footer>
+        <a href="https://linkedin.com/in/bastosbrunods/">linkedin.com/in/bastosbrunods</a>
+    </footer>
+<script src="calculadora.js"></script>
+</body>
+</html>
